@@ -1,5 +1,18 @@
 # Caravel user project includes
 -v $(USER_PROJECT_VERILOG)/rtl/user_project_wrapper.v	     
--v $(USER_PROJECT_VERILOG)/rtl/user_proj_example.v
 
- 
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_hack_soc/wrapped_hack_soc_dffram.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_hack_soc/hack_soc/dmux8way.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_hack_soc/hack_soc/hack_alu.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_hack_soc/hack_soc/hack_clock.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_hack_soc/hack_soc/hack_cpu.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_hack_soc/hack_soc/hack_soc.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_hack_soc/hack_soc/pc.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_hack_soc/hack_soc/register.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_hack_soc/hack_soc/spi_sram_encoder.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_hack_soc/hack_soc/video_signal_generator_640x480.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_hack_soc/hack_soc/spi_video_ram_2.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_hack_soc/hack_soc/vram_write_fifo.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_hack_soc/hack_soc/rom_stream_loader.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_hack_soc/hack_soc/boot_logo.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_hack_soc/hack_soc/DFFRF_2R1W.v

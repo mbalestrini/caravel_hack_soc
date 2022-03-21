@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1647830643" />
+    <testcase name="test_all_gl" classname="wrapped_hack_soc_test" file="/home/videogamo/Work/mpw5/caravel_hack_soc/verilog/dv/caravel_wrapped_hack_soc_test/wrapped_hack_soc_test.py" lineno="132" time="186.67055416107178" sim_time_ns="1464750.001" ratio_time="7846.711590817457" />
+  </testsuite>
+</testsuites>

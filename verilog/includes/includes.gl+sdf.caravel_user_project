@@ -1,3 +1,5 @@
 // Caravel user project includes		
 $USER_PROJECT_VERILOG/gl/user_project_wrapper.v	     
-$USER_PROJECT_VERILOG/gl/user_proj_example.v
+
+$USER_PROJECT_VERILOG/gl/wrapped_hack_soc_dffram.v	     
+$USER_PROJECT_VERILOG/gl/DFFRF_2R1W.powered.nl.v	     

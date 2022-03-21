@@ -14,20 +14,6 @@
 // SPDX-License-Identifier: Apache-2.0
 
 `default_nettype none
-/*
- *-------------------------------------------------------------
- *
- * user_project_wrapper
- *
- * This wrapper enumerates all of the pins available to the
- * user for the user project.
- *
- * An example user project is provided in this wrapper.  The
- * example should be removed and replaced with the actual
- * user project.
- *
- *-------------------------------------------------------------
- */
 
 module user_project_wrapper #(
     parameter BITS = 32
@@ -82,41 +68,34 @@ module user_project_wrapper #(
 /* User project is instantiated  here   */
 /*--------------------------------------*/
 
-user_proj_example mprj (
+
+// Adapting for now the logic of the zerotoasic multi project wrapper
+wire [31:0] active = la_data_in[31:0];
+wire [31:0] la1_data_in = la_data_in[63:32];
+wire [31:0] la1_data_out = la_data_out[63:32];
+wire [31:0] la1_oenb = la_oenb[63:32];
+
+wrapped_hack_soc_dffram hack_soc (
 `ifdef USE_POWER_PINS
-	.vccd1(vccd1),	// User area 1 1.8V power
-	.vssd1(vssd1),	// User area 1 digital ground
+    .vccd1 (vccd1),
+    .vssd1 (vssd1),
 `endif
+    
+    .wb_clk_i (wb_clk_i),
 
-    .wb_clk_i(wb_clk_i),
-    .wb_rst_i(wb_rst_i),
+    // Adapting for now the logic of the zerotoasic multi project wrapper
+    .active (active[11]),
+    
+    .la1_data_in (la1_data_in[31:0]),
+    .la1_data_out (la1_data_out[31:0]),
+    .la1_oenb (la1_oenb[31:0]),
 
-    // MGMT SoC Wishbone Slave
-
-    .wbs_cyc_i(wbs_cyc_i),
-    .wbs_stb_i(wbs_stb_i),
-    .wbs_we_i(wbs_we_i),
-    .wbs_sel_i(wbs_sel_i),
-    .wbs_adr_i(wbs_adr_i),
-    .wbs_dat_i(wbs_dat_i),
-    .wbs_ack_o(wbs_ack_o),
-    .wbs_dat_o(wbs_dat_o),
-
-    // Logic Analyzer
-
-    .la_data_in(la_data_in),
-    .la_data_out(la_data_out),
-    .la_oenb (la_oenb),
-
-    // IO Pads
-
-    .io_in (io_in),
-    .io_out(io_out),
-    .io_oeb(io_oeb),
-
-    // IRQ
-    .irq(user_irq)
+    .io_in (io_in[37:0]),
+    .io_out (io_out[37:0]),
+    .io_oeb (io_oeb[37:0])
 );
+
+
 
 endmodule	// user_project_wrapper
 
