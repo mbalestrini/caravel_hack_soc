@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="2920mm"
+   height="3520mm"
+   viewBox="0 0 2920 3520"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="Boceto.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.050054802"
+     inkscape:cx="5374.1098"
+     inkscape:cy="7841.4056"
+     inkscape:window-width="1920"
+     inkscape:window-height="1147"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#008080;stroke-width:0.262431;stop-color:#000000"
+       id="rect875"
+       width="684"
+       height="417"
+       x="2199.9319"
+       y="3051.2703"
+       inkscape:label="SRAM_2KB" />
+    <rect
+       style="fill:#008080;stroke-width:0.262431;stop-color:#000000"
+       id="rect875-0"
+       width="684"
+       height="417"
+       x="1497.9399"
+       y="3051.2703"
+       inkscape:label="SRAM_2KB" />
+    <rect
+       style="fill:#008080;stroke-width:0.262431;stop-color:#000000"
+       id="rect875-8"
+       width="684"
+       height="417"
+       x="749.38135"
+       y="3051.2703"
+       inkscape:label="SRAM_2KB" />
+    <rect
+       style="fill:#008080;stroke-width:0.262431;stop-color:#000000"
+       id="rect875-8-6"
+       width="684"
+       height="417"
+       x="44.214897"
+       y="3051.2703"
+       inkscape:label="SRAM_2KB" />
+    <rect
+       style="fill:#008080;stroke-width:0.262431;stop-color:#000000"
+       id="rect875-6"
+       width="684"
+       height="417"
+       x="2199.9319"
+       y="2570.7693"
+       inkscape:label="SRAM_2KB" />
+    <rect
+       style="fill:#008080;stroke-width:0.262431;stop-color:#000000"
+       id="rect875-0-5"
+       width="684"
+       height="417"
+       x="1497.9401"
+       y="2570.7693"
+       inkscape:label="SRAM_2KB" />
+    <rect
+       style="fill:#008080;stroke-width:0.262431;stop-color:#000000"
+       id="rect875-8-4"
+       width="684"
+       height="417"
+       x="749.38147"
+       y="2570.7693"
+       inkscape:label="SRAM_2KB" />
+    <rect
+       style="fill:#008080;stroke-width:0.262431;stop-color:#000000"
+       id="rect875-8-6-0"
+       width="684"
+       height="417"
+       x="44.214897"
+       y="2570.7693"
+       inkscape:label="SRAM_2KB" />
+    <rect
+       style="fill:#008080;stroke-width:0.262431;stop-color:#000000"
+       id="rect875-7"
+       width="684"
+       height="417"
+       x="2206.3728"
+       y="2101.7666"
+       inkscape:label="SRAM_2KB" />
+    <rect
+       style="fill:#008080;stroke-width:0.262431;stop-color:#000000"
+       id="rect875-0-7"
+       width="684"
+       height="417"
+       x="1504.3804"
+       y="2101.7666"
+       inkscape:label="SRAM_2KB" />
+    <rect
+       style="fill:#008080;stroke-width:0.262431;stop-color:#000000"
+       id="rect875-8-2"
+       width="684"
+       height="417"
+       x="755.82202"
+       y="2101.7666"
+       inkscape:label="SRAM_2KB" />
+    <rect
+       style="fill:#008080;stroke-width:0.262431;stop-color:#000000"
+       id="rect875-8-6-03"
+       width="684"
+       height="417"
+       x="50.655346"
+       y="2101.7666"
+       inkscape:label="SRAM_2KB" />
+    <rect
+       style="fill:#008080;stroke-width:0.262431;stop-color:#000000"
+       id="rect875-6-1"
+       width="684"
+       height="417"
+       x="2206.3728"
+       y="1621.2643"
+       inkscape:label="SRAM_2KB" />
+    <rect
+       style="fill:#008080;stroke-width:0.262431;stop-color:#000000"
+       id="rect875-0-5-0"
+       width="684"
+       height="417"
+       x="1504.3804"
+       y="1621.2643"
+       inkscape:label="SRAM_2KB" />
+    <rect
+       style="fill:#008080;stroke-width:0.262431;stop-color:#000000"
+       id="rect875-8-4-5"
+       width="684"
+       height="417"
+       x="755.82202"
+       y="1621.2643"
+       inkscape:label="SRAM_2KB" />
+    <rect
+       style="fill:#008080;stroke-width:0.262431;stop-color:#000000"
+       id="rect875-8-6-0-2"
+       width="684"
+       height="417"
+       x="50.655346"
+       y="1621.2643"
+       inkscape:label="SRAM_2KB" />
+    <rect
+       style="fill:#008080;stroke-width:0.262431;stop-color:#000000"
+       id="rect875-3"
+       width="684"
+       height="417"
+       x="2206.3667"
+       y="1149.2842"
+       inkscape:label="SRAM_2KB" />
+    <rect
+       style="fill:#008080;stroke-width:0.262431;stop-color:#000000"
+       id="rect875-0-2"
+       width="684"
+       height="417"
+       x="1504.3745"
+       y="1149.2842"
+       inkscape:label="SRAM_2KB" />
+    <rect
+       style="fill:#008080;stroke-width:0.262431;stop-color:#000000"
+       id="rect875-8-7"
+       width="684"
+       height="417"
+       x="755.8161"
+       y="1149.2842"
+       inkscape:label="SRAM_2KB" />
+    <rect
+       style="fill:#008080;stroke-width:0.262431;stop-color:#000000"
+       id="rect875-8-6-2"
+       width="684"
+       height="417"
+       x="50.649456"
+       y="1149.2842"
+       inkscape:label="SRAM_2KB" />
+    <rect
+       style="fill:#008080;stroke-width:0.262431;stop-color:#000000"
+       id="rect875-6-8"
+       width="684"
+       height="417"
+       x="2206.3667"
+       y="668.78424"
+       inkscape:label="SRAM_2KB" />
+    <rect
+       style="fill:#008080;stroke-width:0.262431;stop-color:#000000"
+       id="rect875-0-5-7"
+       width="684"
+       height="417"
+       x="1504.3745"
+       y="668.78424"
+       inkscape:label="SRAM_2KB" />
+    <rect
+       style="fill:#008080;stroke-width:0.262431;stop-color:#000000"
+       id="rect875-8-4-1"
+       width="684"
+       height="417"
+       x="755.8161"
+       y="668.78424"
+       inkscape:label="SRAM_2KB" />
+    <rect
+       style="fill:#008080;stroke-width:0.262431;stop-color:#000000"
+       id="rect875-8-6-0-7"
+       width="684"
+       height="417"
+       x="50.649456"
+       y="668.78424"
+       inkscape:label="SRAM_2KB" />
+    <rect
+       style="fill:#800000;stroke-width:0.0224973;stop-color:#000000"
+       id="rect1257"
+       width="2795.2034"
+       height="441.4917"
+       x="50.649456"
+       y="58.144588" />
+    <rect
+       style="fill:#800080;stroke-width:0.0264583;stop-color:#000000;stroke:#008000"
+       id="rect1521"
+       width="1247.4661"
+       height="116.28921"
+       x="840.45386"
+       y="518.01556" />
+  </g>
+</svg>
