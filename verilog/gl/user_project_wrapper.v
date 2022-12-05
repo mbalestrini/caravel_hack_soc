@@ -40,7 +40,7 @@ module user_project_wrapper (user_clock2,
  input [3:0] wbs_sel_i;
 
 
- user_proj_example mprj (.vdd(vdd),
+ caravel_hack_soc mprj (.vdd(vdd),
     .vss(vss),
     .wb_clk_i(wb_clk_i),
     .wb_rst_i(wb_rst_i),

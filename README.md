@@ -1,12 +1,36 @@
-# Caravel User Project
+# Hack SoC
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![UPRJ_CI](https://github.com/efabless/caravel_project_example/actions/workflows/user_project_ci.yml/badge.svg)](https://github.com/efabless/caravel_project_example/actions/workflows/user_project_ci.yml) [![Caravel Build](https://github.com/efabless/caravel_project_example/actions/workflows/caravel_build.yml/badge.svg)](https://github.com/efabless/caravel_project_example/actions/workflows/caravel_build.yml)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-| :exclamation: Important Note            |
-|-----------------------------------------|
+## Hardware implementation of the Hack Computer from the Nand to Tetris courses
 
-## Please fill in your project documentation in this README.md file 
+![HACK Computer](docs/caravel_hack_soc-COVER-con-logo.jpg)
 
+![HACK Computer](docs/project.jpg)
+ 
+
+---
+### HACK Computer
+Official website of Nand to Tetris courses: 
+https://www.nand2tetris.org/
+
+Some details of the original HACK Computer:
+```
+HACK	
+16bit Computer	
+Harvard architecture: separate Program & Data memory	
+32 KBytes ROM	
+32 KBytes Addressable RAM:	
+	16 KBytes GENERAL RAM
+	8 KBytes VRAM
+	1 Bytes Keyboard input memory map
+```
+
+---
+
+
+This repository is based on the example caravel_user_project.
 Refer to [README](docs/source/index.rst#section-quickstart) for a quickstart of how to use caravel_user_project
 
-Refer to [README](docs/source/index.rst) for this sample project documentation. 
+
+
