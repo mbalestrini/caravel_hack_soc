@@ -30,8 +30,8 @@ set ::env(VERILOG_FILES) "$::env(DESIGN_DIR)/../../verilog/rtl/caravel_hack_soc.
 #set ::env(DIODE_PADDING) "2"
 
 
-# set absolute size of the die to 300 x 300 um
-set ::env(DIE_AREA) "0 0 600 600"
+# set absolute size of the die 
+set ::env(DIE_AREA) "0 0 1000 1000"
 set ::env(FP_SIZING) absolute
 
 # define number of IO pads
